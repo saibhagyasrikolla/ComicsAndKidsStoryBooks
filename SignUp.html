@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<title>Comics & Kids Story Books | Register</title>
+		<style>
+			form {
+				padding:12px;
+				border:3px dashed purple;
+				font-size:150%;
+				margin-left:450px;
+				margin-right:400px;
+				padding-bottom:25px;
+			}
+			input[type='radio'] {
+				transform:scale(1.5);
+				border-color: purple;
+			}
+			input[type='text'], input[type='password'], input[type='email'] {
+				transform:scale(1.2);	
+				margin-left:20px;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			input[type='number'] {
+				transform:scale(1.2);
+				width:50%;
+				margin-left:28px;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			input[type='submit'] {
+				transform:scale(1.5);	
+				margin-left:43%;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			input[type='date'] {
+				transform:scale(1.5);	
+				margin-left:7%;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			label {
+				font-family:comic sans MS;
+				margin-left:5px;
+				color:#FF2800;
+			}
+			textarea {
+				transform:scale(1.1);	
+				margin-top:10px;
+				margin-left:10px;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			select {
+				transform:scale(1.7);	
+				margin-top:10px;
+				margin-left:45px;
+				border-color:#FF2800;
+				border-radius:2px;
+			}
+			h1 {
+				text-align:center;
+				font-size:250%;
+				font-family:Brush Script MT;
+				color:#DC143C;
+			}
+			h4 {
+				font-family:Brush Script MT;
+				color:#FF1493;
+				font-size:130%;
+			}
+			h2 {
+				font-family:comic sans MS;
+				color:Black;
+				text-align:center;
+				margin-left:70px;
+			}
+			a {
+				background-color:green;
+				color:gold;
+			}
+			a:hover {
+				background-color:pink;
+				color:red;
+				transition: 0.1s;
+			}
+		</style>
+	</head>
+	<body>
+			<h2>Already I have an account?<a href = "Login.html" >Login Here</a></h2>
+			<h1><u>SignUp</u></h1>
+			<form>
+			<h4 align = "center"><u>Please fill in the form to create an account...</u></h4>
+				<b><label>First Name</label>
+				<input type = "text" placeholder = "Enter your first name"/><br/><br/>
+				<label>Last Name</label>
+				<input type = "text" placeholder = "Enter your last name"/><br/><br/>
+				<label>Phone No.</label>
+				<input type = "number" placeholder = "Enter your 10-digit phone number"/><br/><br/>
+				<label>Email-id</label>
+				<input type = "email" placeholder = "Enter your email address"/><br/><br/>
+				<label>Gender</label><br/>
+				<input type = "radio" name = "gender"/><label>Male</label>
+				<input type = "radio" name = "gender"/><label>Female</label>
+				<input type = "radio" name = "gender"/><label>others</label><br/><br/>
+				<label>Date of Birth</label>
+				<input type = "date"/><br/><br/>
+				<label>Address</label><br/>
+				<textarea rows = "7" cols = "30" placeholder = "Enter your Address here..."></textarea><br/><br/>
+				<label>Select what do you want to buy</label><br/>
+				<select>
+					<option>Select</option>
+					<option>Comics</option>
+					<option>Story books</option>
+					<option>Fairy Tale books</option>
+					<option>Stationary item</option>
+				</select><br/><br/>
+				<label>Create a password</label><br/>
+				<input type = "password" placeholder = "Enter your password"/><br/><br/>
+				<input type = "submit" value = "Sign Up"/></b>
+			</form>
+	</body>
+</html>
